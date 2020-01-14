@@ -1,0 +1,38 @@
+.home-image:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+
+}
+
+.home-image-style{
+    border-radius: 25px;
+}
+
+.home-image-text{
+    color:white;
+    position: relative;
+    text-align: center;
+}
+
+.hero-background{
+    position: absolute;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+}
+
+.home-contact{
+    /* background-color: rgb(50, 115, 220); */
+    border-radius: 25px;
+    padding: 15%;
+}
+
+.title{
+    margin-top: 5%;
+}
+
+.install-text{
+    text-align: center;
+}
