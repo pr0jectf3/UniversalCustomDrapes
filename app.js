@@ -16,6 +16,10 @@ app.get("/", function(req,res){
   res.render("home")
 })
 
+app.get("/gallery", function(req,res){
+  res.render("gallery")
+})
+
 app.listen(process.env.PORT, process.env.IP)
 
 app.listen(3000, () => {
